@@ -5,18 +5,23 @@
         background-color: #DD0000;
         width: 258px;
         height: 178px;
+        margin: 0 auto;
     }
-    .container1{
-        display: inline-block;
+
+    .container1 {
+        /* display: inline-block; */
+        height: 472px;
+        width: 334px;
+        margin: 20px;
     }
 
     .header {
         font-size: 22px;
-        font-weight: 700;
-        line-height: 40px;
+    }
 
-        
-
+    .header-div2 img {
+        width: 233px;
+        height: 245px;
     }
 }
 
@@ -51,7 +56,7 @@ body {
     padding-top: 30px;
 }
 
-.header-div1 h1 {
+.header {
     font-size: 60px;
     color: white;
     /* line-height: 80px; */
@@ -60,6 +65,10 @@ body {
 .header-div1 p {
     font-size: 15px;
     color: white;
+}
+.container1:hover >.header-div2>img{
+    transform: translate(10px, 7px);
+
 }
 
 .btn-1 {
@@ -70,13 +79,19 @@ body {
     font-weight: 700;
     font-size: 20px;
     color: white;
+    transition: all 0, 5s ease-in-out;
+}
+.btn-1:hover{
+    background-color: blueviolet;
 }
 
 /* Child div-2 of Section-1 */
 
 .header-div2 img {
-    height: 100%;
+    height: 99%;
     width: 100%;
+    transform: translate(40px, 7px);
+    transition: all 0.5s ease-out;
 }
 
 
@@ -98,10 +113,11 @@ body {
 .sec2-div1 {
     background-color: black;
     height: 280px;
-    width: 312px;
+    width: 290px;
     margin-right: 20px;
     background: #161616;
     border-radius: 10px;
+    padding-left: 40px;
 
     /* border-radius: 20px 0 0 20px; */
 }
@@ -145,12 +161,12 @@ body {
     font-size: 16px;
 }
 
-#list11 {
+.list11 {
     background-color: red;
     color: white;
 }
 
-#list11 a {
+.list11 a {
     /* background-color: red; */
     color: white;
 }
@@ -215,7 +231,45 @@ body {
     display: flex;
     margin-right: 30px;
 }
+.blog{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.country{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.country img{
+    padding: 0 10px;
+}
+.details{
+    padding: 20px;
+    text-align: center;
+}
+
+.details p{
+    font-weight: 700;
+}
+.active{
+    background-color: #DD0000;
+}
+.active a{
+    color: white;
+}
+.inactive{
+    background-color: white;
+}
+.inactive a{
+    color: black;
+}
 
 
 
