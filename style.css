@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+@media only screen and (max-width:668px) {
+    .header-div1 {
+        background-color: #DD0000;
+        width: 258px;
+        height: 178px;
+    }
+    .container1{
+        display: inline-block;
+    }
+
+    .header {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 40px;
+
+        
+
+    }
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -19,7 +39,7 @@ body {
     height: 646px;
     margin-top: 50px;
     margin-bottom: 100px;
-    /* width:1321px; */
+
 }
 
 /* Child div-1 of Section-1 */
@@ -129,6 +149,7 @@ body {
     background-color: red;
     color: white;
 }
+
 #list11 a {
     /* background-color: red; */
     color: white;
@@ -180,6 +201,7 @@ body {
 .feedback-section img {
     size: 100%;
     width: auto;
+    margin-right: 10px;
 }
 
 .feedback-section p {
@@ -194,9 +216,7 @@ body {
     margin-right: 30px;
 }
 
-.icons img {
-    margin-right: 10px;
-}
+
 
 
 
@@ -246,7 +266,8 @@ body {
     font-size: 16px;
 
 }
-.footer-social{
+
+.footer-social {
     display: flex;
     margin-top: 50px;
     /* background-color: #DD0000; */
@@ -254,7 +275,8 @@ body {
     margin: 0 auto;
     justify-content: center;
 }
-.footer-social i{
+
+.footer-social i {
     font-size: 25px;
     color: white;
     margin: 10px;
