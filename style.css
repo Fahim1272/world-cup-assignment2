@@ -12,11 +12,11 @@ body {
     padding-bottom: 0%;
     margin: 0 auto;
     justify-content: center;
-    /* width: 70%; */
+    width: 80%;
     height: 646px;
     margin-top: 50px;
     margin-bottom: 100px;
-    width: 80%;
+    /* width:1321px; */
 }
 
 .header-div1 {
@@ -55,11 +55,16 @@ body {
 
 /* card */
 .card {
-    width: 312px;
+    width: 250px;
     height: auto;
     border-radius: 10px;
     border: 2px solid lightgray;
     padding-bottom: 30px;
+    background-color: aliceblue;
+}
+
+.card img {
+    width: 100%;
 }
 
 .feedback-conatainer {
@@ -85,6 +90,7 @@ body {
 
 .feedback-section img {
     size: 100%;
+    width: auto;
 }
 
 .feedback-section p {
@@ -101,4 +107,29 @@ body {
 
 .icons img {
     margin-right: 10px;
+}
+
+/* Section---2>>>>> */
+.sec-div {
+    width: 83%;
+    background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    /* border-radius: 25px 20px; */
+}
+
+.sec2-div1 {
+    background-color: black;
+    height: 312px;
+    width: 312px;
+    margin-right: 20px;
+    background: #161616;
+    border-radius: 10px;
+    /* border-radius: 20px 0 0 20px; */
+}
+
+.sec2-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
