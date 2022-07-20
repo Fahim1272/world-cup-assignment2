@@ -21,13 +21,14 @@ body {
     margin-bottom: 100px;
     /* width:1321px; */
 }
+
 /* Child div-1 of Section-1 */
 .header-div1 {
     /* background-color: aqua; */
     /* border: 2px solid red; */
     width: 50%;
     padding-left: 50px;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .header-div1 h1 {
@@ -40,6 +41,7 @@ body {
     font-size: 15px;
     color: white;
 }
+
 .btn-1 {
     width: 187px;
     height: 56px;
@@ -47,6 +49,7 @@ body {
     border-radius: 5px;
     font-weight: 700;
     font-size: 20px;
+    color: white;
 }
 
 /* Child div-2 of Section-1 */
@@ -113,8 +116,22 @@ body {
 
 .list1 a {
     text-decoration: none;
+    color: black;
 
 
+}
+
+#list1 {
+    font-size: 16px;
+}
+
+#list11 {
+    background-color: red;
+    color: white;
+}
+#list11 a {
+    /* background-color: red; */
+    color: white;
 }
 
 
@@ -124,6 +141,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
 /* card */
 .card {
     width: 250px;
@@ -219,6 +237,7 @@ body {
     grid-template-columns: repeat(6, auto);
     column-gap: 10px;
     margin: 0 auto;
+    margin-bottom: 40px;
     /* border: 1px solid red; */
 }
 
@@ -226,4 +245,17 @@ body {
     /* border: 1px solid red; */
     font-size: 16px;
 
+}
+.footer-social{
+    display: flex;
+    margin-top: 50px;
+    /* background-color: #DD0000; */
+    width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.footer-social i{
+    font-size: 25px;
+    color: white;
+    margin: 10px;
 }
