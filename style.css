@@ -4,6 +4,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* First Section------------------------------------------! */
+/* Parent div of Section-1 */
+
 .container1 {
     background-color: black;
     display: flex;
@@ -18,7 +21,7 @@ body {
     margin-bottom: 100px;
     /* width:1321px; */
 }
-
+/* Child div-1 of Section-1 */
 .header-div1 {
     /* background-color: aqua; */
     /* border: 2px solid red; */
@@ -37,13 +40,6 @@ body {
     font-size: 15px;
     color: white;
 }
-
-
-.header-div2 img {
-    height: 100%;
-    width: 100%;
-}
-
 .btn-1 {
     width: 187px;
     height: 56px;
@@ -53,6 +49,81 @@ body {
     font-size: 20px;
 }
 
+/* Child div-2 of Section-1 */
+
+.header-div2 img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+/* Section-2------------------------------------- */
+
+/* Child div-1 of section-2 */
+.sec-div {
+    width: 83%;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 100px;
+    /* border-radius: 25px 20px; */
+}
+
+.sec2-div1 {
+    background-color: black;
+    height: 280px;
+    width: 312px;
+    margin-right: 20px;
+    background: #161616;
+    border-radius: 10px;
+
+    /* border-radius: 20px 0 0 20px; */
+}
+
+.list0 {
+    position: absolute;
+    list-style-type: none;
+    padding-left: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(1);
+    row-gap: 20px;
+    align-items: center;
+    /* justify-content:center ; */
+}
+
+.list1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    /* text-align: center; */
+    font-size: 20px;
+
+
+
+}
+
+.list1 a {
+    text-decoration: none;
+
+
+}
+
+
+/* Child div-2 of section-2 */
+.sec2-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
 /* card */
 .card {
     width: 250px;
@@ -109,74 +180,18 @@ body {
     margin-right: 10px;
 }
 
-/* Section---2>>>>> */
-.sec-div {
-    width: 83%;
-    /* background-color: aquamarine; */
-    margin: 0 auto;
-    display: flex;
-    margin-bottom: 100px;
-    /* border-radius: 25px 20px; */
-}
-
-.sec2-div1 {
-    background-color: black;
-    height: 280px;
-    width: 312px;
-    margin-right: 20px;
-    background: #161616;
-    border-radius: 10px;
-
-    /* border-radius: 20px 0 0 20px; */
-}
-
-
-.sec2-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.list0 {
-    position: absolute;
-    list-style-type: none;
-    padding-left: 28px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: grid;
-    grid-template-columns: repeat(1);
-    row-gap: 20px;
-    align-items: center;
-    /* justify-content:center ; */
-}
-
-.list1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    width: 187px;
-    height: 56px;
-    border-radius: 5px;
-    /* text-align: center; */
-    font-size: 20px;
 
 
 
-}
 
-.list1 a {
-    text-decoration: none;
-
-
-}
-
-/* Footer */
+/* Footer ----------------------------------!*/
+/* Parent div of footer */
 .footer {
     height: 444px;
     background-color: black;
 }
 
+/* Child Div-1 of Footer */
 .footer-head {
     height: 200px;
     width: 80%;
@@ -186,10 +201,29 @@ body {
     /* background-color: aqua; */
     margin: 0 auto;
     border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 60px;
 
 }
 
 .footer h1 {
     color: aliceblue;
     font-size: 40px;
+}
+
+/* Child Div-2 of Footer */
+.footer-end {
+    width: 60%;
+    /* margin-top: 30px; */
+    color: #B9B9B9;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    column-gap: 10px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.footer-text {
+    /* border: 1px solid red; */
+    font-size: 16px;
+
 }
